@@ -87,7 +87,7 @@ nav ul li a {
 }
 h1 span {
   display: block;
-  /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
 }
 .cta {
   display: inline-block;
@@ -249,7 +249,7 @@ ul.testimonials li {
     display: flex;
   }
   .hero {
-    margin: 8em 4em;
+    padding: 8em 4em;
   }
   .main-copy {
     width: 40%;
@@ -268,7 +268,8 @@ ul.testimonials li {
   .last-container {
     margin: 0 4em;
   }
-  .main-quote,.main-cite {
+  .main-quote,
+  .main-cite {
     text-align: center;
   }
   .main-quote {
@@ -297,10 +298,12 @@ ul.testimonials li {
   }
   .test-desc {
     font-size: 1.1rem;
-    margin-top: .5em;
+    margin-top: 0.5em;
     margin-bottom: 0;
   }
-  .cabin-desc, ul.features li p, .left p {
-    font-size: .9rem;
+  .cabin-desc,
+  ul.features li p,
+  .left p {
+    font-size: 0.9rem;
   }
 }
