@@ -1,68 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap');
-html, body {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: #D8EACB;
-    font-family: 'Montserrat', sans-serif;
+  background: #d8eacb;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 img {
-    width: 100%;
+  width: 100%;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    background: #EEEEEE;
-    padding: .5em;
+  display: flex;
+  justify-content: space-between;
+  background: #eeeeee;
+  padding: 0.5em;
 }
 
 .logo {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 .menu {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 nav ul {
-    visibility: hidden;
-    opacity: 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #72A84A;
-    height: 100vh;
-    padding-top: 5em;
-    z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #72a84a;
+  height: 100vh;
+  padding-top: 5em;
+  z-index: 100;
 }
 
 nav ul li a {
-    color: black;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 1em;
-    display: block;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1em;
+  display: block;
 }
 .exit a {
-    width: 30px;
-    height: 40px;
-    position: absolute;
-    top: 0;
-    right: 0;
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .open-nav {
   visibility: unset;
@@ -75,14 +76,14 @@ nav ul li a {
   color: white;
 }
 .wrapper {
-  padding: .5em;
+  padding: 0.5em;
   text-align: center;
 }
 .no-padding {
   padding: 0;
 }
 .subtitle {
-  padding: 3em 0 .5em;
+  padding: 3em 0 0.5em;
 }
 h1 span {
   display: block;
@@ -91,9 +92,9 @@ h1 span {
 .cta {
   display: inline-block;
   padding: 1em;
-  background: #72A84A;
+  background: #72a84a;
   font-weight: bold;
-  color:white ;
+  color: white;
   margin-top: 1em;
   margin-bottom: 3em;
 }
@@ -105,16 +106,18 @@ ul.featured-cabins li {
   margin-bottom: 3em;
 }
 .cabin-img {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .cabin-title {
   font-size: 1.3em;
   font-weight: bold;
 }
-.cabin-decs, ul.features li p , .left p {
+.cabin-decs,
+ul.features li p,
+.left p {
   line-height: 1.9;
   margin-bottom: 2em;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .cabin-cta {
   display: flex;
@@ -122,8 +125,8 @@ ul.featured-cabins li {
   position: relative;
 }
 .cabin-cta::after {
-  position:absolute;
-  content: '';
+  position: absolute;
+  content: "";
   background: white;
   bottom: -12px;
   width: 100%;
@@ -137,7 +140,7 @@ ul.featured-cabins li {
   width: 10px;
 }
 .feature-container {
-  background: #1A1A1A;
+  background: #1a1a1a;
   color: white;
 }
 ul.features {
@@ -148,13 +151,13 @@ ul.features li img {
   width: 40px;
 }
 ul.features li p {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 .main-quote {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.2rem;
   font-style: italic;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 .main-cite {
   margin-bottom: 3em;
@@ -172,11 +175,11 @@ ul.testimonials li {
   border-radius: 50%;
 }
 .test-desc {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: italic;
 }
 .test-auth {
-  font-size: .85rem;
+  font-size: 0.85rem;
   font-weight: bold;
 }
 .last-container {
@@ -187,11 +190,12 @@ ul.testimonials li {
   bottom: 0;
   left: 0;
   z-index: 1;
-  opacity: .1;
+  opacity: 0.1;
   width: 80%;
 }
 @media (min-width: 550px) {
-  .menu, .exit {
+  .menu,
+  .exit {
     display: none;
   }
   header {
@@ -208,24 +212,95 @@ ul.testimonials li {
     height: auto;
   }
   ul.nav li a {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: normal;
     padding: 0 1em;
   }
-  ul.nav li:last-child a{
+  ul.nav li:last-child a {
     padding-right: 0;
   }
   ul.nav .active a {
     font-weight: bold;
   }
   ul.nav .res a {
-    color: #72A84A;
+    color: #72a84a;
     font-weight: bold;
   }
   ul.featured-cabins {
     display: grid;
     grid-gap: 3em;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
     width: 90%;
+  }
+}
+@media (min-width: 650px) {
+  ul.features {
+    display: grid;
+    grid-gap: 3em;
+    width: 90%;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media (min-width: 900px) {
+  .wrapper {
+    text-align: left;
+  }
+  .flex {
+    display: flex;
+  }
+  .hero {
+    margin: 8em 4em;
+  }
+  .main-copy {
+    width: 40%;
+  }
+  .subtitle {
+    margin: 0 0 1em;
+    padding: 0;
+  }
+  h1 {
+    font-size: 3em;
+    margin-top: 0;
+  }
+  ul.featured-cabins {
+    width: 70%;
+  }
+  .last-container {
+    margin: 0 4em;
+  }
+  .main-quote,.main-cite {
+    text-align: center;
+  }
+  .main-quote {
+    font-size: 3em;
+    margin-top: 2em;
+  }
+  .main-cite {
+    font-size: 1.5em;
+    margin-bottom: 3em;
+  }
+  .bio {
+    width: 90%;
+  }
+  ul.testimonials {
+    width: 100%;
+    margin-left: 2em;
+  }
+  ul.testimonials li {
+    display: flex;
+    background: white;
+    padding: 1.5em;
+    margin-bottom: 1em;
+  }
+  .test-img {
+    margin-right: 1em;
+  }
+  .test-desc {
+    font-size: 1.1rem;
+    margin-top: .5em;
+    margin-bottom: 0;
+  }
+  .cabin-desc, ul.features li p, .left p {
+    font-size: .9rem;
   }
 }
